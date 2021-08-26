@@ -82,12 +82,12 @@ To Run Docker
   - This project was challenging because of limited exposure to the Next js Framework and the integration to Jest testing platform. 
     
 
-#### Improvements
+## Improvements
   - Add Loading icon until components loads
   - Enhance unit test coverage with edge cases
 
 
-## FUTURE FEATURES
+## Future Features
  - Disable the update button for subscriptions with invalid seat counts
     - Display an error message if an error is received from the server endpoints
     - Support multiple products (each with their own plan and seat count) 
