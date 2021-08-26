@@ -1,0 +1,27 @@
+.currentPlan {
+    height: 300px;
+    margin-left: 20px;
+}
+
+.editPlan {
+    display: inline-block;
+    width: 125px;
+}
+
+.cost {
+    display: inline-block;
+    vertical-align: top;
+    width: 75px;
+    height: 50px;
+}
+
+#costValue {
+    padding: 5px;
+    border: 1px;
+}
+
+#buttonSection {
+    width: 500px;
+    text-align: right;
+    margin-top: 20px;
+}

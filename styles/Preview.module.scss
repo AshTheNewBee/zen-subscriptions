@@ -1,0 +1,39 @@
+.previewHeading {
+    color: pink
+}
+
+.donePage {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+#value {
+    color: #888;
+    font-weight: 600;
+
+}
+
+.row {
+    height: 40px;
+
+    .label {
+        display: inline-block;
+        width: 150px;
+        color: #bbbbbb;
+        text-transform: capitalize;
+    }
+
+    .value {
+        color: #888;
+        font-weight: 600;
+    }
+
+    .updated_true {
+        color: #30aabc;
+    }
+}
+
+#buttonSection {
+    margin-top: 20px;
+    padding-left: 30px;
+}
