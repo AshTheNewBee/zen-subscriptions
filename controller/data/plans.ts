@@ -23,21 +23,3 @@ export const PlanDetails = {
     price: 1000,
   },
 };
-
-export const DefaultPlan = {
-  plan: "Good",
-  seats: 5,
-  price: 50,
-};
-
-export let Plan = {
-  plan: "Good",
-  seats: 5,
-  price: 50,
-};
-
-export const PrvPlan = {
-  plan: "Good",
-  seats: 5,
-  price: 50,
-};

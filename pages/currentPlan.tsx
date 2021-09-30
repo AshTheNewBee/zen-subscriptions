@@ -3,6 +3,7 @@ import { ZenH2, ErrHeading, ZenCard, ZenButton } from "../view";
 import { FetchData, UpdateData, Plan } from "../controller";
 import { ToggleRenderProvider, usePlan, useRenderer } from "../utils";
 import { CardContent, PreviewPage } from "../pageComponents";
+import CurrencySelector from "../pageComponents/_currencySelector";
 import styles from "../styles/CurrentPlan.module.scss";
 
 const RenderPages = (): JSX.Element => {
@@ -63,6 +64,10 @@ export const CurrentPlan = (): JSX.Element => {
   return (
     <div className={styles.currentPlan} id="currentPlan">
       <ZenH2 _id="currentPlanHeading" heading="Subscription" />
+      {/* it should display currncy drop dwn
+       Curruncy */}
+      <CurrencySelector />
+
       {subscription && (
         <>
           <ZenCard
